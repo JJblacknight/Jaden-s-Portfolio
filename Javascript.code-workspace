@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../nextjs/.github/workflows"
+		},
+		{
+			"path": "../../nextjs/web"
+		},
+		{
+			"path": "../../nextjs/web/src/app"
+		}
+	],
+	"settings": {}
+}
