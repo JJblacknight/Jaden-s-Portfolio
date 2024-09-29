@@ -1,8 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#Jaden Frimpong's Portfolio 
+
+This is a personal portfolio website built using [Next.js](https://nextjs.org/) bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It is meant to showcase my projects, experience, and skills as a software engineer. This site is responsive, optimized for perfomance, and features dynamic content fetched from a structured data source.
+
+## Technologies Used
+
+- Next.js
+- React
+- Tailwind CSS
+- Shadcn/UI
+- Lucide-react
+
+## Features
+
+- Dynamic project and experience pages with detailed information 
+- Responsive design optimized mainly for Laptops
+- Search and filter functionality
+- Blog Section
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/JJblacknight/Jaden-s-Portfolio.git
+cd Jaden-s-Portfolio
+npm install
+# or
+yarn install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -19,6 +46,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Project Structure
+
+Here's a brief overview of the project's structure:
+
+## Components Overview
 
 ## Learn More
 

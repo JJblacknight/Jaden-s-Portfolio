@@ -2,25 +2,26 @@
 
 ## Sections / Ideation
 
-- [ ] Landing page / about me
-  - [ ] Contact Information
+- [X] Landing page / about me
+  - [X] Contact Information
 - [ ] Filter/search
-- [ ] Projects
+- [X] Projects
     - [ ] Skills
-- [ ] Experience
+- [X] Experience
     - [ ] Skills
-- [ ] Education
+- [X] Education
 - [ ] Blogs -- stretch goal
-- [ ] Footer
+- [ ] Merge READMEs
+- [X] Footer
 - [ ] Tooltips
 
 
 
 ## Components
 
-- [ ] Navbar
-- [ ] ItemCard
-- [ ] PortfolioSection
-- [ ] SocialsCard
-- [ ] Header
+- [X] Navbar
+- [X] ItemCard
+- [X] PortfolioSection
+- [X] SocialsCard
+- [X] Header
 - [ ] Footer

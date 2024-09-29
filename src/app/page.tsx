@@ -1,6 +1,7 @@
 import AboutMe from "@/components/headers/AboutMe";
 import ItemCard from "@/components/ItemCard";
 import Section from "@/components/Sections";
+import Footer from "@/components/Footer";
 import { Briefcase, Folder, University } from "lucide-react";
 import {data} from "@/lib/data";
 
@@ -17,14 +18,14 @@ export default function Home() {
 
         return(
         <ItemCard
-          image={project.image}
-          title={project.title}
-          description={project.description}
-          tags={project.tags}
-          href={project.href}
-          key={project.title} 
-          children={undefined}
-          />
+            image={project.image}
+            title={project.title}
+            description={project.description}
+            tags={project.tags}
+            key={project.title}
+            children={undefined} 
+            extraInfo={project.extraInfo}          
+            />
         );
         } )}
       </Section>
@@ -33,14 +34,14 @@ export default function Home() {
 
         return(
         <ItemCard
-          image={experience.image}
-          title={experience.title}
-          description={experience.description}
-          tags={experience.tags}
-          href={experience.href}
-          key={experience.title} 
-          children={undefined}
-          />
+            image={experience.image}
+            title={experience.title}
+            description={experience.description}
+            tags={experience.tags}
+            key={experience.title}
+            children={undefined} 
+            extraInfo={""}          
+            />
         );
         } )}
       </Section>
@@ -49,18 +50,21 @@ export default function Home() {
 
 return(
 <ItemCard
-  image={education.image}
-  title={education.title}
-  description={education.description}
-  tags={education.tags}
-  href={education.href}
-  key={education.title} 
-  children={undefined}
-  />
+    image={education.image}
+    title={education.title}
+    description={education.description}
+    tags={education.tags}
+    key={education.title}
+    children={undefined} 
+    extraInfo={""}  
+    />
 );
 } )}      
 </Section>
       </div>
+      
+    <Footer/>
+
     </main>
   );
 }

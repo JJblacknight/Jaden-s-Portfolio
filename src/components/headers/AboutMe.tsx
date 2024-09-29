@@ -42,7 +42,7 @@ export default function AboutMe({name, role, availability, location, email, resu
         </div>
         <div className="flex justify-center items-center gap-2">
             {/* Resume, email */}
-            <Link href= {"mailto: ${email}"}>
+            <Link href={`mailto:${email}`}>
             <Button variant="outline" className="flex justify-center items-center gap-2" >
                 <Mail size="18" />
                 Email Me
